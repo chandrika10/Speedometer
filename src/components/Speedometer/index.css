@@ -1,0 +1,58 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+.speed-meter-container {
+  background-color: #07080c;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: 'roboto';
+  margin: 25px;
+}
+.img {
+  height: 250px;
+  width: 350px;
+  margin-bottom: 20px;
+}
+.meter-heading {
+  color: #ffffff;
+  font-size: 35px;
+  font-weight: 600;
+  font-family: 'roboto';
+  margin-bottom: 20px;
+}
+.description {
+  color: #94a3b8;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: 'roboto';
+  margin-bottom: 20px;
+}
+.button-container {
+  margin: 25px;
+  display: flex;
+}
+.accelerator {
+  color: #ffffff;
+  height: 40px;
+  width: 120px;
+  background-color: #0b69ff;
+  margin-right: 20px;
+  border-width: 0px;
+}
+.apply-break {
+  color: #94a3b8;
+  height: 40px;
+  width: 120px;
+  background-color: transparent;
+  border: 1px solid #cbd5e1;
+}
